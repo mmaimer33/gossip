@@ -1,0 +1,12 @@
+2023-01-17 18:34:09.043 +08 [5082] LOG:  starting PostgreSQL 14.6 (Homebrew) on aarch64-apple-darwin22.1.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.202), 64-bit
+2023-01-17 18:34:09.044 +08 [5082] LOG:  listening on IPv6 address "::1", port 5432
+2023-01-17 18:34:09.044 +08 [5082] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-01-17 18:34:09.044 +08 [5082] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-01-17 18:34:09.047 +08 [5083] LOG:  database system was shut down at 2023-01-17 18:33:22 +08
+2023-01-17 18:34:09.049 +08 [5082] LOG:  database system is ready to accept connections
+2023-01-17 18:34:20.146 +08 [5091] ERROR:  role "ih19" already exists
+2023-01-17 18:34:20.146 +08 [5091] STATEMENT:  CREATE ROLE ih19 PASSWORD 'SCRAM-SHA-256$4096:QjIkR8uMzVLHPs4p3C1dmQ==$a7Bi3AUAlS18YRJH1jTWIYQpXXmcrTbkvnsFQKz+HpM=:i9Wre5+/emHrOuZ7vTSZGX3Vr7AiJNftMd20PxhFjjc=' SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN;
+2023-01-17 18:39:30.578 +08 [5151] ERROR:  database "gossip_development" already exists
+2023-01-17 18:39:30.578 +08 [5151] STATEMENT:  CREATE DATABASE "gossip_development" ENCODING = 'unicode'
+2023-01-17 18:39:30.584 +08 [5152] ERROR:  database "gossip_test" already exists
+2023-01-17 18:39:30.584 +08 [5152] STATEMENT:  CREATE DATABASE "gossip_test" ENCODING = 'unicode'
